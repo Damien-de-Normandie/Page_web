@@ -1,13 +1,14 @@
 /* ===== BANDEAU ===== */
 .bandeau {
-height: 320px;
-background-image:
-linear-gradient(
-rgba(0, 0, 0, 0.20),
-rgba(0, 0, 0, 0.55)
-),
-url("../Images/bandeau-caumont.jpg");
+    height: 320px;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.20),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("../Images/bandeau-caumont.jpg");
 }
+
 .bandeau::after {
     content: "";
     position: absolute;

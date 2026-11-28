@@ -1,159 +1,37 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!doctype html>
+<html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>G&eacute;n&eacute;alogie
-normande - Damien Rauline</title>
-  <meta name="author" content="Damien Rauline">
-  <meta name="description"
- content="G&eacute;n&eacute;alogie normande et familles de la r&eacute;gion de Saint-L&ocirc;">
-  <meta name="keywords"
- content="g&eacute;n&eacute;alogie,normandie,saint-l&ocirc;,villiers-fossard">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="favicon.ico">
-  <style>
-body {
-font-family: "Segoe UI", Arial, sans-serif;
-background-color: #f7f4ee;
-color: #333;
-max-width: 1100px;
-margin: 0 auto;
-padding: 25px;
-line-height: 1.7;
-}
-/* -------- Bandeau -------- */
-.bandeau {
-height: 320px;
-background-image:
-linear-gradient(
-rgba(0,0,0,0.25),
-rgba(0,0,0,0.45)
-),
-url('Images/bandeau.jpg');
-background-size: cover;
-background-position: center;
-border-radius: 12px;
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-padding: 30px;
-margin-bottom: 40px;
-box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-}
-.titre-bandeau {
-font-size: 2.8em;
-color: white;
-margin: 0;
-text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
-}
-.sous-titre-bandeau {
-color: #f4f1e8;
-font-family: Georgia, serif;
-font-size: 1.3em;
-margin-top: 12px;
-margin-bottom: 0;
-text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
-}
-/* -------- Blocs -------- */
-.bloc {
-background: white;
-border-radius: 10px;
-padding: 25px;
-margin-bottom: 30px;
-box-shadow: 0 2px 10px rgba(0,0,0,0.10);
-}
-h2 {
-color: #204060;
-margin-top: 0;
-}
-a {
-color: #1f5aa6;
-text-decoration: none;
-}
-a:hover {
-text-decoration: underline;
-}
-/* -------- Liens g�n�alogiques -------- */
-.outils ul {
-margin: 0;
-}
-.outils li {
-margin-bottom: 10px;
-font-size: 1.05em;
-}
-/* -------- Familles -------- */
-.familles {
-display: grid;
-grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-gap: 20px;
-}
-.famille {
-background: white;
-border-radius: 10px;
-padding: 20px;
-text-align: center;
-box-shadow: 0 2px 10px rgba(0,0,0,0.10);
-}
-.famille img {
-max-width: 100px;
-height: auto;
-margin-bottom: 10px;
-}
-.famille h3 {
-color: #204060;
-margin: 10px 0;
-}
-.famille p {
-margin: 0;
-}
-/* -------- Retour -------- */
-.retour {
-text-align: center;
-margin-top: 40px;
-}
-.bouton-retour {
-display: inline-block;
-padding: 12px 24px;
-background: #204060;
-color: white;
-border-radius: 8px;
-font-weight: bold;
-}
-.bouton-retour:hover {
-background: #2e5f90;
-text-decoration: none;
-}
-/* -------- Pied de page -------- */
-footer {
-text-align: center;
-color: #666;
-margin-top: 50px;
-font-size: 0.9em;
-}
-hr {
-border: none;
-height: 2px;
-background-color: #8b2f2f;
-width: 50%;
-margin: 40px auto;
-}
-/* -------- Mobile -------- */
-@media screen and (max-width: 700px) {
-.bandeau {
-height: 240px;
-padding: 20px;
-}
-.titre-bandeau {
-font-size: 2em;
-}
-.sous-titre-bandeau {
-font-size: 1.1em;
-}
-}
-  </style>
+ <meta charset="utf-8">
+    <title>Généalogie normande - Damien Rauline</title>
+    <meta name="author" content="Damien Rauline">
+    <meta name="description" content="Généalogie familiale, histoire locale et patrimoine normand. Recherches généalogiques sur les familles de la région de Saint-Lô et de Normandie.">
+    <meta name="keywords" content="généalogie,normandie,saint-lô,familles normandes,histoire locale,patrimoine">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#204060">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="Images/favicon-48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="Images/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="Images/favicon-512.png">
+    <!-- Apple -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <!-- Ancien format pour compatibilité -->
+    <link rel="shortcut icon" href="Images/favicon.ico">
+    <!-- Manifest -->
+    <link rel="manifest" href="site.webmanifest">
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="css/commun.css">
+    <link rel="stylesheet" href="css/geneal.css">
 </head>
 <body>
-<div class="bandeau">
+<a
+    href="#top"
+    class="retour-haut-page"
+    aria-label="Retour en haut de la page">
+    ↑
+</a>
+<header id="top" class="bandeau">
 <h1 class="titre-bandeau">G&eacute;n&eacute;alogie
 normande
 </h1>
@@ -161,15 +39,16 @@ normande
 Ascendance manchoise et familles de la r&eacute;gion de
 Saint-L&ocirc;
 </p>
-</div>
-<div class="bloc">
+</header>
+<main>
+<section class="bloc">
+<h2>Présentation</h2>
 <p>Mon ascendance est normande,
 essentiellement manchoise.
-Mes anc&ecirc;tres vivaient principalement dans la
-r&eacute;gion de Saint-L&ocirc;.
+La plupart de mes ancêtres vivaient dans la région de Saint-Lô, mais certaines branches proviennent également du Calvados et de l'Orne.
 </p>
-</div>
-<div class="bloc outils">
+</section>
+<section class="bloc outils">
 <h2>Acc&egrave;s aux
 donn&eacute;es g&eacute;n&eacute;alogiques</h2>
 <ul>
@@ -179,76 +58,77 @@ donn&eacute;es g&eacute;n&eacute;alogiques</h2>
   <li><a href="Donnees/ip001.htm">Liste des lieux et des
 personnes</a></li>
 </ul>
-</div>
-<div class="bloc">
-<p>Si, en tant que citoyen, la
-noblesse ne m'attire pas particuli&egrave;rement,
-il n'en est pas de m&ecirc;me en tant que
-g&eacute;n&eacute;alogiste.
-Trouver une branche noble dans son ascendance permet souvent de
-remonter
-bien au-del&agrave; des registres paroissiaux et parfois jusqu'aux
-grandes
-familles m&eacute;di&eacute;vales.
+</section>
+<section class="bloc">
+  <h2>Familles étudiées</h2>
+<p>
+Bien que la noblesse ne suscite chez moi qu’un intérêt limité en tant que citoyen, elle revêt une tout autre importance pour le généalogiste que je suis. La découverte d’une lignée noble dans une ascendance ouvre souvent des perspectives de recherche bien au-delà des registres paroissiaux et permet parfois de remonter jusqu’aux grandes dynasties du Moyen Âge. Ainsi, par l’intermédiaire de la famille de Brébeuf, il est possible de faire remonter cette ascendance jusqu’à Guillaume le Conquérant.
 </p>
 <p>
-Je m'int&eacute;resse tout particuli&egrave;rement aux familles
-suivantes :
+Je m'intéresse tout particulièrement aux familles suivantes :
 </p>
+<section class="familles" aria-label="Familles étudiées">
+    <article class="famille">
+        <img src="Images/blason_bonde.png" alt="Blason de la Bonde">
+        <h3><a href="bonde.html"title="Consulter la documentation sur la famille de la Bonde">de la Bonde</a></h3>
+    </article>
+    <article class="famille">
+        <img src="Images/Caumont_blason.png" alt="Blason de Caumont">
+        <h3><a href="caumont.htm"
+   title="Consulter la documentation sur la famille de Caumont">
+   de Caumont
+</a></h3>
+    </article>
+    <article class="famille">
+        <img src="Images/loucelles_blason.png" alt="Blason de Loucelles">
+        <h3><a href="loucelle.htm"title="Consulter la documentation sur la famille de Loucelles">de Loucelles</a></h3>
+    </article>
+    <article class="famille">
+        <img src="Images/brebeuf.png" alt="Blason de Brébeuf">
+        <h3><a href="brebeuf.htm" title="Consulter la documentation sur la famille de Brébeuf">de Brébeuf</a></h3>
+    </article>
+    <article class="famille">
+        <div
+    class="blason-vide"
+    aria-label="Blason non disponible">
+    ?
 </div>
-<div class="familles">
-<div class="famille"><img src="Images/blason_bonde.gif"
- alt="Blason de la Bonde">
-<h3><a href="bonde.html">de la Bonde</a></h3>
+        <h3>Cauvelande</h3>
+    </article>
+    <article class="famille">
+        <img src="Images/blason_parfouru.png" alt="Blason de Parfouru">
+        <h3><a href="parfouru.htm" title="Consulter la documentation sur la famille de Parfouru">de Parfouru</a></h3>
+    </article>
+    <article class="famille">
+        <img src="Images/Campion_blason.png" alt="Blason de Campion">
+        <h3><a href="campion.htm" title="Consulter la documentation sur la famille de Campion">de Campion</a></h3>
+    </article>
+    <article class="famille">
+        <div
+    class="blason-vide"
+    aria-label="Blason non disponible">
+    ?
 </div>
-<div class="famille">
-<img src="Images/Caumont_blason.gif" alt="Blason de Caumont">
-<h3><a href="caumont.htm">de Caumont</a></h3>
-</div>
-<div class="famille">
-<img src="Images/loucelles_blason.gif" alt="Blason de Loucelles">
-<h3><a href="loucelle.htm">de Loucelles</a></h3>
-</div>
-<div class="famille">
-<img src="Images/brebeuf.gif" alt="Blason de Br&eacute;beuf">
-<h3><a href="brebeuf.htm">de Br&eacute;beuf</a></h3>
-</div>
-<div class="famille">
-<h3>Cauvelande</h3>
-</div>
-<div class="famille">
-<img src="Images/blason_parfouru.gif" alt="Blason de Parfouru">
-<h3><a href="parfouru.htm">de Parfouru</a></h3>
-</div>
-<div class="famille">
-<img src="Images/Campion_blason.gif" alt="Blason de Campion">
-<h3><a href="campion.htm">de Campion</a></h3>
-</div>
-<div class="famille">
-<h3>de Garcelles</h3>
-</div>
-<div class="famille">
-<img src="Images/Thiboult.gif" alt="Blason Thiboult">
-<h3><a href="thiboult.htm">Thiboult</a></h3>
-</div>
-</div>
-<hr>
-<div class="retour"><a class="bouton-retour" href="index.htm">&larr;
-Retour &agrave; l'accueil
-</a></div>
-<footer>
+        <h3>de Garcelles</h3>
+    </article>
+    <article class="famille">
+        <img src="Images/Thiboult.png" alt="Blason Thiboult">
+        <h3><a href="thiboult.htm" title="Consulter la documentation sur la famille de Thiboult">Thiboult</a></h3>
+    </article>
+</section>
+</section>
+<hr aria-hidden="true">
+</main>
+<footer class="pied-page">
+<p class="date-maj">Derni&egrave;re
+mise &agrave; jour : 28 novembre 2026
+</p>
+<p>
+<a class="bouton-retour" href="index.htm">&larr; Retour à l'accueil</a>
+</p>
+<p class="signature-site">
+Site r&eacute;alis&eacute; et maintenu par Damien Rauline
+</p>
 </footer>
-<p>Derni&egrave;re
-modification : 27 novembre 2026
-</p>
-<!-- eStat -->
-<script>
-var _UJS = 0;
-</script>
-<script src="http://perso.estat.com/js/m.js"></script>
-<script>
-if (_UJS)
-_estat('29509541713','Page_D_Accueil','Geneal');
-</script>
 </body>
 </html>

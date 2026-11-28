@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html dir="ltr">
+<!doctype html>
+<html lang="fr">
 <head>
   <meta charset="utf-8">
   <title>Famille de Caumont -
@@ -9,205 +9,25 @@ Damien Rauline</title>
  content="Documents et recherches sur la famille de Caumont en Normandie">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="favicon.ico">
-  <style>
-body {
-font-family: "Segoe UI", Arial, sans-serif;
-background-color: #f7f4ee;
-color: #333333;
-max-width: 1100px;
-margin: 0 auto;
-padding: 25px;
-line-height: 1.7;
-}
-.sous-rubrique {
-background: #faf9f5;
-border-left: 4px solid #204060;
-border-radius: 8px;
-padding: 20px 25px;
-margin-bottom: 25px;
-}
-.sous-rubrique h3 {
-color: #204060;
-margin-top: 0;
-}
-.sous-rubrique ul {
-margin-bottom: 0;
-}
-.pied-page {
-margin-top: 60px;
-padding-top: 30px;
-border-top: 2px solid #d6d0c4;
-text-align: center;
-}
-.date-maj {
-color: #666;
-font-size: 0.95em;
-margin-bottom: 25px;
-}
-.bouton-retour {
-display: inline-block;
-background: #204060;
-color: white;
-padding: 12px 24px;
-border-radius: 8px;
-font-weight: 600;
-text-decoration: none;
-transition: background-color 0.2s ease;
-}
-.bouton-retour:hover {
-background: #2e5f90;
-text-decoration: none;
-}
-.signature-site {
-margin-top: 25px;
-color: #888;
-font-size: 0.85em;
-font-style: italic;
-}
-/* ===== BANDEAU ===== */
-.bandeau {
-height: 320px;
-background-image:
-linear-gradient(
-rgba(0, 0, 0, 0.20),
-rgba(0, 0, 0, 0.55)
-),
-url("Images/bandeau.jpg");
-background-size: cover;
-background-position: center;
-border-radius: 12px;
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-padding: 30px;
-margin-bottom: 40px;
-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-}
-.titre-bandeau {
-font-size: 2.8em;
-color: white;
-margin: 0;
-text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
-}
-.sous-titre-bandeau {
-color: #f4f1e8;
-font-family: Georgia, serif;
-font-size: 1.3em;
-margin-top: 10px;
-margin-bottom: 0;
-text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
-}
-.liste-liens {
-background: #faf9f5;
-border-left: 4px solid #204060;
-padding: 20px 30px;
-border-radius: 8px;
-}
-.liste-liens ul {
-columns: 2;
-column-gap: 40px;
-margin: 0;
-padding-left: 20px;
-}
-.liste-liens li {
-margin-bottom: 8px;
-}
-@media screen and (max-width: 700px) {
-.liste-liens ul {
-columns: 1;
-}
-}
-/* ===== BLOCS ===== */
-.bloc {
-background: white;
-border-radius: 10px;
-padding: 25px;
-margin-bottom: 30px;
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
-}
-.bloc h2 {
-color: #204060;
-border-bottom: 2px solid #d8d8d8;
-padding-bottom: 10px;
-}
-/* ===== MENU D'ACCÈS RAPIDE ===== */
-.menu-caumont {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-gap: 15px;
-}
-.menu-caumont a {
-display: block;
-background: #204060;
-color: white;
-text-align: center;
-padding: 15px;
-border-radius: 8px;
-font-weight: bold;
-text-decoration: none;
-}
-.menu-caumont a:hover {
-background: #2e5f90;
-}
-/* ===== LIENS ===== */
-a {
-color: #1f5aa6;
-text-decoration: none;
-}
-a:hover {
-text-decoration: underline;
-}
-/* ===== BLASON ===== */
-.blason {
-float: right;
-margin-left: 25px;
-margin-bottom: 15px;
-max-width: 120px;
-}
-.introduction::after {
-content: "";
-display: block;
-clear: both;
-}
-/* ===== MOBILE ===== */
-@media screen and (max-width: 700px) {
-.bandeau {
-height: 240px;
-padding: 20px;
-}
-.titre-bandeau {
-font-size: 2em;
-}
-.sous-titre-bandeau {
-font-size: 1.1em;
-}
-.blason {
-float: none;
-display: block;
-margin: 0 auto 20px auto;
-}
-}
-.titre-blason {
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-.titre-blason img {
-width: 40px;
-height: auto;
-}
-  </style>
+<link rel="stylesheet" href="css/commun.css">
+<link rel="stylesheet" href="css/caumont.css">
 </head>
 <body>
-<div class="bandeau">
+<a href="#top" class="retour-haut-page">↑ Haut de page</a>
+<header id="top" class="bandeau">
 <h1 class="titre-bandeau">Famille
 de Caumont</h1>
 <p class="sous-titre-bandeau">
 Documents, archives et recherches g&eacute;n&eacute;alogiques
 </p>
-</div>
-<div class="bloc introduction">
-<img src="Images/Caumont_blason.gif"
+</header>
+<main>
+<p class="retour-haut">
+    <a href="geneal.html">← Retour à la généalogie normande</a>
+</p>
+<section class="bloc introduction" aria-labelledby="presentation">
+<h2 id="presentation" class="visually-hidden">Pr&eacute;sentation</h2>
+<img src="Images/Caumont_blason.png"
  alt="Blason de la famille de Caumont" class="blason">
 <p>Cette page rassemble
 l'essentiel de la documentation que j'ai pu r&eacute;unir
@@ -225,8 +45,8 @@ Il s'agit principalement d'un recueil documentaire destin&eacute;
 consult&eacute;es et les informations recueillies au fil de mes
 recherches.
 </p>
-</div>
-<div class="bloc">
+</section>
+<nav class="bloc" aria-label="Acc&egrave;s rapide aux rubriques">
 <h2>Acc&egrave;s rapide aux
 rubriques</h2>
 <div class="menu-caumont">
@@ -243,12 +63,12 @@ non publi&eacute;s</a>
 <a href="#repertoires">R&eacute;pertoires
 g&eacute;n&eacute;alogiques</a>
 </div>
-</div>
+</nav>
 <!-- Début de la section suivante -->
-<div class="bloc" id="paroisses">
-<h2 class="titre-blason">Registres
+<section class="bloc" id="paroisses" aria-labelledby="titre-paroisses">
+<h2 id="titre-paroisses" class="titre-blason">Registres
 paroissiaux
-<img src="Images/Caumont_blason.gif" alt="Blason de Caumont"></h2>
+<img src="Images/Caumont_blason.png" alt="" aria-hidden="true"></h2>
 <p>
 Les extraits ci-dessous proviennent des registres paroissiaux
 consult&eacute;s dans le cadre des recherches sur la famille de
@@ -283,11 +103,11 @@ Bohon</a></li>
   <li><a href="Caumont/paroiss2.htm#ver">Ver</a></li>
 </ul>
 </div>
-</div>
-<div class="bloc" id="notariat">
-<h2 class="titre-blason">Documents
+</section>
+<section class="bloc" id="notariat" aria-labelledby="titre-notariat">
+<h2 id="titre-notariat" class="titre-blason">Documents
 notariaux
-<img src="Images/Caumont_blason.gif" alt="Blason de Caumont"></h2>
+<img src="Images/Caumont_blason.png" alt="" aria-hidden="true"></h2>
 <p>
 Cette rubrique rassemble les actes notari&eacute;s, tabellionnages
 et archives judiciaires o&ugrave; apparaissent des membres de la
@@ -311,11 +131,11 @@ Carentan</a></li>
 Torigni-sur-Vire</a></li>
 </ul>
 </div>
-</div>
-<div class="bloc" id="recherches">
-<h2 class="titre-blason">Recherches
+</section>
+<section class="bloc" id="recherches" aria-labelledby="titre-recherches">
+<h2 id="titre-recherches" class="titre-blason">Recherches
 de noblesse
-<img src="Images/Caumont_blason.gif" alt="Blason de Caumont"></h2>
+<img src="Images/Caumont_blason.png" alt="" aria-hidden="true"></h2>
 <p>
 Les enqu&ecirc;tes de noblesse, r&ocirc;les militaires et
 montres permettent de suivre la pr&eacute;sence de la famille de
@@ -344,11 +164,11 @@ Cotentin (1640)</a></li>
 Chamillart (1666)</a></li>
 </ul>
 </div>
-</div>
-<div class="bloc" id="divers">
-<h2 class="titre-blason">Documents
+</section>
+<section class="bloc" id="divers" aria-labelledby="titre-divers">
+<h2 id="titre-divers" class="titre-blason">Documents
 divers publi&eacute;s
-<img src="Images/Caumont_blason.gif" alt="Blason de Caumont"></h2>
+<img src="Images/Caumont_blason.png" alt="" aria-hidden="true"></h2>
 <p>
 Cette rubrique rassemble les r&eacute;f&eacute;rences
 historiques, archivistiques et bibliographiques o&ugrave;
@@ -457,11 +277,11 @@ d'Arcisse de Caumont</a></li>
   <li>(1635) <a href="Caumont/publies3.htm#leduc">Fonds Le Duc</a></li>
 </ul>
 </div>
-</div>
-<div class="bloc" id="non-publies">
-<h2 class="titre-blason">Documents
+</section>
+<section class="bloc" id="non-publies" aria-labelledby="titre-non-publies">
+<h2 id="titre-non-publies" class="titre-blason">Documents
 divers non publi&eacute;s
-<img src="Images/Caumont_blason.gif" alt="Blason de Caumont"></h2>
+<img src="Images/Caumont_blason.png" alt="" aria-hidden="true"></h2>
 <p>
 Cette rubrique regroupe les fonds d'archives et les notes de travail
 consult&eacute;s directement dans les d&eacute;p&ocirc;ts
@@ -495,11 +315,11 @@ g&eacute;n&eacute;alogiques de Pierre Lepesant</a></li>
 Graignes</a></li>
 </ul>
 </div>
-</div>
-<div class="bloc" id="repertoires">
-<h2 class="titre-blason">R&eacute;pertoires
+ </section>
+<section class="bloc" id="repertoires" aria-labelledby="titre-repertoires">
+<h2 id="titre-repertoires" class="titre-blason">R&eacute;pertoires
 g&eacute;n&eacute;alogiques
-<img src="Images/Caumont_blason.gif" alt="Blason de Caumont"></h2>
+<img src="Images/Caumont_blason.png" alt="" aria-hidden="true"></h2>
 <p>
 Les ouvrages et r&eacute;pertoires
 g&eacute;n&eacute;alogiques constituent souvent un point de
@@ -522,8 +342,9 @@ G&eacute;n&eacute;alogique, H&eacute;raldique et Nobiliaire
 de la France</a></li>
 </ul>
 </div>
-</div>
-<div class="pied-page">
+</section>
+</main>
+<footer class="pied-page">
 <p class="date-maj">Derni&egrave;re
 mise &agrave; jour : 28 novembre 2026
 </p>
@@ -534,6 +355,6 @@ g&eacute;n&eacute;alogie normande</a>
 <p class="signature-site">
 Site r&eacute;alis&eacute; et maintenu par Damien Rauline
 </p>
-</div>
+</footer>
 </body>
 </html>

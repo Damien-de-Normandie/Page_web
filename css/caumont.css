@@ -1,0 +1,22 @@
+/* ===== BANDEAU ===== */
+.bandeau {
+height: 320px;
+background-image:
+linear-gradient(
+rgba(0, 0, 0, 0.20),
+rgba(0, 0, 0, 0.55)
+),
+url("../Images/bandeau-caumont.jpg");
+}
+.bandeau::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url("../Images/Caumont_blason.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.15;
+}
